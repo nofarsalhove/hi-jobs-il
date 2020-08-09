@@ -1,0 +1,6 @@
+@import "common";
+
+.submit-btn {
+  color: white !important;
+  @include btn-color;
+}

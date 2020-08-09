@@ -1,0 +1,39 @@
+@import "common";
+
+.post {
+  border: #ccc 1px solid;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #999;
+
+  .load-more {
+    top: 8px;
+    right: 8px;
+    @include btn-color;
+
+    &:hover {
+      @include btn-color-hover;
+    }
+  }
+
+  .fa-arrow-circle-down {
+    color: white;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .rotate-arrow {
+    transform: rotate(-180deg);
+  }
+
+  .fa-heart {
+    color: rgb(230, 33, 66);
+  }
+
+  // .description,
+  // .collapse {
+  //   text-align: justify;
+  // }
+
+  .send-cv {
+    @include btn-color;
+  }
+}

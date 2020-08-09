@@ -1,0 +1,9 @@
+@import "common";
+
+.create-btn {
+  @include btn-color;
+
+  &:hover {
+    @include btn-color-hover;
+  }
+}

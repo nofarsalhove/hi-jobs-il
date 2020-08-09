@@ -1,0 +1,12 @@
+// $mainColor: #7a9694;
+$mainColor: #033577;
+
+@mixin btn-color {
+  background-color: $mainColor !important;
+  border: none !important;
+}
+
+@mixin btn-color-hover {
+  // background-color: rgba(47, 78, 76, 0.7) !important;
+  background-color: rgba(3, 53, 119, 0.7) !important;
+}
